@@ -10,6 +10,8 @@ margin: 0%;
 color: rgb(0, 0, 0);
 }
 
+
+
 a{
     text-decoration: none;
     color: black;
@@ -20,7 +22,7 @@ header{
     min-height: 70px;
     background-color: rgba(82, 107, 120, 0.467);
     align-items: center;
-    padding: 15px;
+    padding: 30px 40px;
  }
  
  .logo{
@@ -52,13 +54,35 @@ nav a {
 .infoproducto {
 width: 40px;
 }
+
+
+
 @media (max-width:700px){ 
        header {
         flex-direction: column;
-       }
 
+       }
+       
        nav{ 
         padding: 10px 0px;
        }
 }
+
+.item {
+    max-width: 100%;
+}
+
+.infogeneral{ 
+display: grid;
+grid-template-columns: repeat(3, 1fr) ;
+
+}
+
+
+
+
+
+
+
+
 
