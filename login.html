@@ -4,25 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form action="home.html" method="get">
-        <div>
-            <label for="email">EMAIL: </label>
-            <input type="email" name="mail" id="">
+    <header>
+        <h1></h1>
+        <div class="logo">
+            <img src="./imgs/gucci.png" alt="logo">
+            <h2>gucci</h2>
         </div>
-        <div>
-            <label for="password">CONTRASEÑA: </label>
-            <input type="password" name="pass" id="">
+        <nav>
+            <ul>
+                <li><a href="" class="">HOME</a></li>
+                <li><a href="" class="">ELECTRÓNICA</a></li>
+                <li><a href="" class="">ACCESORIOS</a></li>
+                <li><a href="" class="">HOMBRE</a></li>
+                <li><a href="" class="">MUJER</a></li>
+                <li><a href="" class="">CARRITO</a></li>
+                <li><a href="" class="">LOGIN</a></li>
+                <li><a href="" class="">REGISTRO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <div class="formulario">
+        <h1>Inicio sesión</h1>
+       <form action="" method="post">
+        <div class="Email">
+           <input type="email" required>
+           <label> Email</label>
         </div>
-        <div>
-            <button type="submit">Ingresar</button>
+        <div class="Contraseña">
+            <input type="password" required>
+            <label for="">Contraseña</label>
         </div>
-        <div>            
-            <form action="recuperocontraseña.html"></form>
-            <a href="./recuperocontraseña.html"></a>
-            <button>Recuperar contraseña</button>
+        <div class="recupero"><a href="">Recuperar contraseña</a></div>
+        <button type="submit">Ingresar</button>
+        <div class="cuentanueva">
+            <a href="">No tengo cuenta</a>
         </div>
-    </form>
+       </form>
+    </div>
+</main>
+
+<footer>Ramiro Sokolowicz-Juan Ignacio Lafosse</footer>
+
 </body>
 </html>
